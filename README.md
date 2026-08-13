@@ -15,8 +15,8 @@ Then drop the real files into `files/`:
 - `files/cv.pdf` — your CV (the `CV` link points here)
 - `files/jmp.pdf` — the JMP draft (the paper title links here)
 - `files/photo.jpg` — portrait; fills the framed photo slot left of the bio
-  automatically once present (until then the frame shows your initials). A
-  portrait-orientation crop works best — the frame is 4:5.
+  automatically (until then the frame shows your initials). The frame is
+  square, so a square crop shows uncropped.
 
 Optional links (Google Scholar, GitHub) are in the HTML as comments — fill in
 the URL and uncomment.

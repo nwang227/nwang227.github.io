@@ -79,7 +79,7 @@
   /* ---------- Intro: portrait left, text right ---------- */
   .intro { display: flex; align-items: flex-start; gap: 1.75rem; }
   .portrait {
-    width: 165px; aspect-ratio: 4 / 5;
+    width: 165px; aspect-ratio: 1 / 1;
     border-radius: 3px; border: 1px solid var(--hairline);
     background: var(--well);
     flex-shrink: 0;
@@ -151,8 +151,8 @@
   </header>
 
   <div class="intro">
-    <!-- Drop a photo at files/photo.jpg and it fills this frame automatically;
-         until then the frame shows your initials. Portrait (4:5) crop works best. -->
+    <!-- files/photo.jpg fills this frame automatically; the frame is square,
+         matching the photo's crop. -->
     <div class="portrait">
       <span class="initials" aria-hidden="true">NW</span>
       <img src="files/photo.jpg" alt="Portrait of Nan Wang" onerror="this.remove()">
