@@ -69,5 +69,5 @@ edit its title, coauthor line, status line, and links. The abstract lives in a
   instantly and works offline.
 - Colors are CSS variables at the top of the `<style>` block (`--accent` is
   the link navy). Light and dark mode both follow the visitor's OS setting.
-- Keep the page one column and under ~45rem wide; that constraint is the
+- Keep the page one column and under ~52rem wide; that constraint is the
   design.
